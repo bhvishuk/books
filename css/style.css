@@ -1,0 +1,104 @@
+body {
+    background-color: #f0f0f0; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+.sectionEcscl {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.sectionEcscl > h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card1, .card2, .card3 {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    width: calc(33.333% - 14px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+
+.rectangle-text {
+    background-color: rgba(255, 144, 0, 1);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+}
+
+.rectangle-text h1 {
+    font-size: 14px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.smeshariki {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.text-under {
+    text-align: left;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.text-under h3 {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+    font-weight: normal;
+}
+
+.text-under h2 {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #000;
+}
+
+
+.pre-order {
+    background-color:rgba(232, 101, 46, 0.61);
+    color: white;
+    border: none;
+    padding: 10px 0px;
+    border-radius: 20px;
+    width: 100%;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+.pre-order:hover {
+    background-color: rgba(232, 102, 46, 0.858);
+}

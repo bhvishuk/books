@@ -5,6 +5,7 @@ body {
     padding: 40px 20px;
 }
 
+
 .sectionEcscl {
     background-color: #ffffff;
     border-radius: 12px;
@@ -102,3 +103,4 @@ body {
 .pre-order:hover {
     background-color: rgba(232, 102, 46, 0.858);
 }
+

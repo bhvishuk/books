@@ -133,3 +133,38 @@ body {
     font-size: 20px;
     margin-bottom: 5px;
 }
+
+
+.sub-nav {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+    padding: 15px 30px; 
+}
+
+.sub-nav-btn {
+    background-color: #FFFFFF;
+    color: #333;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    padding: 12px 24px;
+    border-radius: 12px; 
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); 
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.sub-nav-btn:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sub-nav-more {
+    background: transparent;
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    padding: 0 10px;
+}
